@@ -10,12 +10,12 @@ driver.maximize_window()
 
 # //input[@id="email_"]
 input_username = driver.find_element(By.XPATH,'//input[@id="email_"]')
-input_username.send_keys("jivnani21@iitk.ac.in")
+input_username.send_keys("EMAILID")
 next_button = driver.find_element(By.XPATH,'//button[@type="submit"]')
 next_button.click()
 time.sleep(5)
 input_password = driver.find_element(By.XPATH,'//input[@name="password"]')
-input_password.send_keys("Jivnani@21")
+input_password.send_keys("PASSWORD")
 submit_button = driver.find_element(By.XPATH,'//button[@type="submit"]')
 submit_button.click()
 # //button[@type="submit"]
